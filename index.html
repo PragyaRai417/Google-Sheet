@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon for the webpage -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/281/281761.png" type="image/x-icon">
+    
+    <title>Google Sheet</title>
+    
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+        
+        <!-- Header Section -->
+        <div class="header">
+            
+            <!-- Navigation Menu -->
+            <div class="nav-content">
+                <div class="nav-menu">File</div>
+                <div class="nav-menu nav-active">Home</div>
+                <div class="nav-menu">Insert</div>
+                <div class="nav-menu">Layout</div>
+                <div class="nav-menu">Help</div>
+            </div>
+
+            <!-- Cell Formatting Tools -->
+            <div class="cell-styles">
+                
+                <!-- Copy, Cut, and Paste Icons -->
+                <span class="material-icons copy">content_copy</span>
+                <span class="material-icons cut">content_cut</span>
+                <span class="material-icons paste">content_paste</span>
+
+                <!-- Font Selection -->
+                <select onchange="setFont(this)" class="font-family-selection font-family select">
+                    <option value="monospace">MonoSpace</option>
+                    <option value="sans-serif">Sans-serif</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="cursive">Cursive</option>
+                    <option value="serif">Serif</option>
+                    <option value="slab-serif">Slab Serif</option>
+                    <option value="script">Script</option>
+                    <option value="handwriting">Handwriting</option>
+                    <option value="decorative">Decorative</option>
+                    <option value="gothic">Gothic</option>
+                    <option value="modern">Modern</option>
+                    <option value="typewriter">Typewriter</option>
+                </select>
+
+                <!-- Font Size Selection -->
+                <select onchange="setSize(this)" class="font-size-selection font-size select">
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                    <option value="28">28</option>
+                    <option value="30">30</option>
+                    <option value="32">32</option>
+                    <option value="34">34</option>
+                    <option value="36">36</option>
+                    <option value="40">40</option>
+                    <option value="44">44</option>
+                    <option value="48">48</option>
+                    <option value="52">52</option>
+                    <option value="56">56</option>
+                    <option value="60">60</option>
+                </select>
+
+                <!-- Text Formatting Options -->
+                <span class="material-icons bold">format_bold</span>
+                <span class="material-icons italic">format_italic</span>
+                <span class="material-icons underline">format_underlined</span>
+
+                <!-- Text Alignment Options -->
+                <span class="start material-icons alignment">format_align_left</span>
+                <span class="center material-icons alignment">format_align_center</span>
+                <span class="end material-icons alignment">format_align_right</span>
+
+                <!-- Text and Background Color Pickers -->
+                <div class="color-prop">
+                    <label for="color" class="material-icons">format_color_text</label>
+                    <input onchange="textColor(this)" type="color" name="color" id="color" class="font-color-prop">
+                </div>
+                <div class="color-prop">
+                    <label for="bgcolor" class="material-icons">format_color_fill</label>
+                    <input onchange="backgroundColor(this)" type="color" name="bgcolor" id="bgcolor" class="BGcolor-prop">
+                </div>
+
+                <!-- Download and Upload Icons -->
+                <span class="material-icons download">cloud_download</span>
+                <span class="material-icons open">cloud_upload</span>
+            </div>
+
+            <!-- Active Cell Display and Formula Bar -->
+            <div class="active-cell-data">
+                <b class="address-bar" id="active_cell">Null</b>
+                <img class="formula-icon" src="https://img.icons8.com/ios/50/000000/formula-fx.png"/>
+                <input type="text" class="formula-bar">
+            </div>
+        </div>
+
+        <!-- Grid Section -->
+        <div class="grid">
+            <div class="grid-header"></div>
+        </div>
+        
+        <!-- Footer Section -->
+        <div class="footer">
+            <span class="material-icons new-sheet">post_add</span>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="./script.js"></script>
+    <script src="./sheet.js"></script>
+    <script src="functionalities.js"></script>
+</body>
+</html>
