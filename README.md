@@ -1,24 +1,24 @@
-🎵 Google Sheets Clone<br/>
-A modern Google Sheets clone built using HTML, CSS, and JavaScript. This project replicates the essential features of Google Sheets, 
-including text formatting, multiple sheets, and file operations (download/upload).<br/>
+🎵 Google Sheets Clone<br>
+A feature-rich Google Sheets clone built using HTML, CSS, and JavaScript, replicating core spreadsheet functionality with an intuitive and responsive user interface.<br/>
 
-🚀 Features <br/>
-✅ Fully functional spreadsheet UI with rows, columns, and cells.<br/>
-✅ Text formatting options (Bold, Italic, Underline, Font, Size, Color). <br/>
-✅ Alignment options (Left, Center, Right). <br/>
-✅ Copy, Cut, Paste functionality with clipboard access.<br/> 
-✅ Multiple sheets support with tab navigation. <br/>
-✅ Save and Load Sheets (JSON file storage).<br/>
-✅ Dynamic Formula Bar to edit cell content easily.<br/>
-✅ Mobile-friendly and responsive UI.<br/>
+🚀 Key Features<br/> 
+✅ Fully functional spreadsheet with rows, columns, and editable cells<br> 
+✅ Rich text formatting: Bold, Italic, Underline, Font style, Size, and Color<br> 
+✅ Text alignment options: Left, Center, Right<br> 
+✅ Clipboard support: Copy, Cut, Paste<br> 
+✅ Multiple sheet support with tab-based navigation<br> 
+✅ Save/load sheets as JSON files<br> 
+✅ Interactive formula bar for easy cell content editing<br> 
+✅ Responsive and mobile-friendly UI design<br>
 
-🛠 Tech Stack 🎨 HTML, CSS – Structure and styling of the UI. <br/>
-🎵 JavaScript – Core functionalities for spreadsheet operations. <br/>
-⚡ CSS Flexbox & Grid – Layout and responsiveness. <br/>
-📌 LocalStorage & File Handling – Saving and opening sheet data.<br/>
+🛠 Tech Stack<br> 
+🎨 HTML & CSS – UI structure and styling<br> 
+🎵 JavaScript – Spreadsheet logic and interactivity<br> 
+⚡ CSS Flexbox & Grid – Layout and responsiveness<br> 
+📌 LocalStorage & File Handling – Sheet data persistence and file handling<br>
 
-📌 Future Enhancements <br/>
-🔹 Add support for formulas (SUM, AVG, etc.) <br/>
-🔹 Implement real-time collaboration using WebSockets. <br/>
-🔹 Enhance animations and smooth UI interactions. <br/>
-🔹 Improve file import/export compatibility with CSV & Excel.<br/>
+🔮 Planned Enhancements<br> 
+🔹 Add formula support (e.g., SUM, AVG)<br> 
+🔹 Enable real-time collaboration using WebSockets<br>
+🔹 Enhance animations and user interactions<br> 
+🔹 Improve file compatibility with CSV and Excel formats<br>
