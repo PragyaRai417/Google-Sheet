@@ -1,7 +1,7 @@
 🎵 Google Sheets Clone<br>
 A feature-rich Google Sheets clone built using HTML, CSS, and JavaScript, replicating core spreadsheet functionality with an intuitive and responsive user interface.<br/>
 
-🚀 Key Features<br/> 
+🚀 Key Features<br> 
 ✅ Fully functional spreadsheet with rows, columns, and editable cells<br> 
 ✅ Rich text formatting: Bold, Italic, Underline, Font style, Size, and Color<br> 
 ✅ Text alignment options: Left, Center, Right<br> 
@@ -11,7 +11,7 @@ A feature-rich Google Sheets clone built using HTML, CSS, and JavaScript, replic
 ✅ Interactive formula bar for easy cell content editing<br> 
 ✅ Responsive and mobile-friendly UI design<br>
 
-🛠 Tech Stack<br> 
+🛠 Tech Stack<br>
 🎨 HTML & CSS – UI structure and styling<br> 
 🎵 JavaScript – Spreadsheet logic and interactivity<br> 
 ⚡ CSS Flexbox & Grid – Layout and responsiveness<br> 
