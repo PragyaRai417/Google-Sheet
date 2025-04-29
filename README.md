@@ -1,4 +1,8 @@
 🎵 Google Sheets Clone<br>
+
+🚀 Live Demo: https://sheet-engine.netlify.app/<br>
+
+📌 Project Overview<br>
 A feature-rich Google Sheets clone built using HTML, CSS, and JavaScript, replicating core spreadsheet functionality with an intuitive and responsive user interface.<br/>
 
 🚀 Key Features<br> 
